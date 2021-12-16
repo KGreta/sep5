@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .navbar img {
+      float:left;
+      text-align: center;
+      height: 50px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: white;
+    color: black;
+  }
+  
+  .navbar-right {
+    float: right;
+  }
+
+  .text-subtitle {
+      padding-top: 20px;
+      width: 50%;
+  }
+
+.body-content {
+    height: 300px;
+    background-color: #1ea4c9;
+}
+
+  .buttons {
+      padding-top: 20px;
+  }
+
+  .buttons button:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+  }
+
+  .download-btn {
+    background-color: black; 
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 25px;
+  }
+
+  .premium-btn {
+    background-color: white; 
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 25px;
+  }
+
+  .body-img {
+    display: flex;
+    float: right;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+  }
+
+  .premium-plans {
+      box-sizing: border-box;
+      padding: 40px;
+      margin: auto;
+  }
+
+  .premium-content h1 {
+      text-align: center;
+      padding-top: 30px;
+  }
+
+  .columns {
+      float: left;
+    width: 50%;
+    padding: 0px;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 600px) {
+    .body-content {
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .body-content {
+        padding: 50px;
+    }
+    .columns {
+        width: 100%;
+      }
+  }
+  
